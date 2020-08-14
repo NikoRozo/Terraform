@@ -34,3 +34,6 @@ Uso de Backend con S3, se implementa encripción como buena practica
 
 # Terraform Demo 5
 Implementación con modulos Locales
+
+# Terraform Demo 6
+Uso de Localstack con Terraform, simulando la creación de un Bucket de S3
