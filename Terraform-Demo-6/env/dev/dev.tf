@@ -29,8 +29,9 @@ provider "aws" {
     sts            = "http://localhost:4592"
   }
 }
-resource "aws_s3_bucket" "demo-backend"{
-    bucket = var.bucket_name
+module "app-demo5" {
+    source = "../../modules/s3"
+    bucket_name = var.bucket_name
     acl = var.acl
-    tags =  var.tags
+    tags = var.tags
 }
