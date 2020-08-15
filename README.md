@@ -8,6 +8,7 @@ Repositorio Practicas con Terraform para Infraestructura como Código
 
 ```bash
 curl -o terraform.zip https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_linux_amd64.zip
+
 unzip terraform.zip;
 ```
 
@@ -15,6 +16,7 @@ Instalar:
 
 ```bash
 sudo mv terraform /usr/bin/;
+
 terraform version
 ```
 ## Windows
@@ -30,14 +32,19 @@ terraform version
 ```bash
 # Descarga los plugin del proveedor
 terraform init
+
 # Validar sintaxis
 terraform validate
+
 # Plan
 terraform plan
+
 # Ejecutar
 terraform apply
+
 # Ejecutar - omitir aprobación
 terraform apply -auto-approve
+
 # Destruir Infraestructura
 terraform destroy
 ```
