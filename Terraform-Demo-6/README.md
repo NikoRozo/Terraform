@@ -15,11 +15,14 @@ terraform plan
 # Ejecutar
 terraform apply
 
-# Ejecutar - omitir aprobación
+# Ejecutar - Omitir aprobación
 terraform apply -auto-approve
 
 # Destruir Infraestructura
 terraform destroy
+
+# Destruir Infraestructura - Omitir aprobación
+terraform destroy -auto-approve
 ```
 
 ## Estructura del Proyecto
@@ -42,3 +45,4 @@ terraform destroy
 - [Documentación Terraform para AWS](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [Best Practices - Terraform](https://github.com/hashicorp/best-practices)
 - [Localstack con Terraform](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/guides/custom-service-endpoints#localstack)
+- [Terraform - Providers Configurations AWS](https://www.terraform.io/docs/configuration/providers.html)
