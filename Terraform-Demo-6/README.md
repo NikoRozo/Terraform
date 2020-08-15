@@ -5,14 +5,19 @@ La estructura de este proyecto esta diseñada, para desplegar nuestra infraestru
 ```bash
 # Descarga los plugin del proveedor
 terraform init
+
 # Validar sintaxis
 terraform validate
+
 # Plan
 terraform plan
+
 # Ejecutar
 terraform apply
+
 # Ejecutar - omitir aprobación
 terraform apply -auto-approve
+
 # Destruir Infraestructura
 terraform destroy
 ```
