@@ -15,3 +15,11 @@ variable "sg_name" {
 variable "ingress_rule" {
     description = "Reglas de ingreso"
 }
+variable "key_name" {
+    default=""
+    description="Key Pair Exitente"
+}
+variable "bootstrap" {
+    default=""
+    description="Scrip de configuración"
+}

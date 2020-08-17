@@ -1,7 +1,7 @@
 ami_id="ami-0bcc094591f354be2"
 instance_type="t2.micro"
 key_name="nikokp"
-bootstrap="bootstrap.sh"
+bootstrap="../../bootstrap/bootstrap.sh"
 tags={Name="Demo3",Enviroment="Dev"}
 sg_name="Demo3-rules"
 ingress_rule = [
