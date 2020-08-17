@@ -1,3 +1,6 @@
+#--------------------------------------------------------------
+# Este Modulo permite crear un Instancia EC2
+#--------------------------------------------------------------
 variable "ami_id" {description="AMI Id"}
 variable "instance_type" {description="Tipo de Instancia"}
 variable "sg_name" {description="Nombre del Security Group"}

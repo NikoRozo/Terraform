@@ -12,6 +12,7 @@ variable "ingress_rule" {description = "Reglas de ingreso"}
 variable "key_name" {description="Key Pair Exitente"}
 variable "bootstrap" {description="Scrip de configuración"}
 
+
 module "app-demo-s3" {
     source = "../../modules/s3"
     bucket_name = var.bucket_name
